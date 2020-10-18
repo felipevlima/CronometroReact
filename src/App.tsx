@@ -1,11 +1,16 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import Routes from 'routes';
-
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Routing from './routes';
 // import { Container } from './styles';
 
 const App: React.FC = () => {
-  return <Routes />;
+  return (
+    <BrowserRouter>
+      <Header />
+      <Routing />
+    </BrowserRouter>
+  );
 };
 
 export default App;

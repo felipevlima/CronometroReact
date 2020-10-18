@@ -1,5 +1,6 @@
 /* eslint-disable react/button-has-type */
 import React, { useState } from 'react';
+import { ButtonsCotainer } from './Cronometro.styles';
 
 type Props = {
   setTimeInSeconds: Function;
@@ -46,10 +47,10 @@ export function Control(props: Props) {
   }
 
   return (
-    <>
+    <ButtonsCotainer>
       <button onClick={run}>Run</button>
       <button onClick={stop}>Stop</button>
       <button onClick={reset}>Reset</button>
-    </>
+    </ButtonsCotainer>
   );
 };

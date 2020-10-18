@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background: #0e0e10;
-    width: 100%;
+    width: 100vw;
     height: 100%;
 
     justify-content: center;
@@ -46,8 +46,8 @@ export const Text = styled.p`
 `;
 
 export const PanelContainer = styled.main`
-    display: flex; 
-    width: 100%; 
+    display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

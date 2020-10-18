@@ -23,9 +23,6 @@ const Cronometro: React.FC = () => {
         <p>{timer[1]}</p>
         <span>:</span>
         <p>{timer[2]}</p>
-        <span>:</span>
-        <p>{timer[3]}</p>
-        <span>:</span>
       </TimerBox>
       <Control setTimeInSeconds={setTimeInSeconds}/>
     </Container>
